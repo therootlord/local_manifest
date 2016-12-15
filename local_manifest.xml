@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Common sources -->
+    <project name="Galaxy-J5/android_device_samsung_j5-common"         path="device/samsung/j5-common"    remote="github" revision="cm-13.0" />
+    <project name="Galaxy-J5/proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    remote="github" revision="cm-13.0" />
+
+<!-- Kernel Source -->
+    <project name="Galaxy-J5/android_kernel_samsung_j5nltexx_mm_caf"   path="kernel/samsung/j5lte"        remote="github" revision="cm-13.0" />
+
+<!-- SM-J500F sources -->
+    <project name="Galaxy-J5/android_device_samsung_j5ltexx"           path="device/samsung/j5ltexx"      remote="github" revision="cm-13.0" />
+    <project name="Galaxy-J5/proprietary_vendor_samsung_j5ltexx"       path="vendor/samsung/j5ltexx"      remote="github" revision="cm-13.0" />
+<!-- SM-J500FN sources -->
+    <project name="Galaxy-J5/android_device_samsung_j5nltexx"          path="device/samsung/j5nltexx"     remote="github" revision="cm-13.0" />
+    <project name="Galaxy-J5/proprietary_vendor_samsung_j5nltexx"      path="vendor/samsung/j5nltexx"     remote="github" revision="cm-13.0" />
+
+<!-- Hardware -->  
+    <project name="CyanogenMod/android_device_samsung_qcom-common"     path="device/samsung/qcom-common"  remote="github" revision="cm-13.0" />
+    <project name="CyanogenMod/android_device_qcom_common"             path="device/qcom/common"          remote="github" revision="cm-13.0" />
+    <project name="CyanogenMod/android_hardware_samsung"               path="hardware/samsung"            remote="github" revision="cm-13.0" />
+    <project name="CyanogenMod/android_external_mm-dash"               path="external/mm-dash"            remote="github" revision="cm-13.0" />
+
+<!-- TWRP sources -->
+    <project name="omnirom/android_bootable_recovery"                  path="bootable/recovery-twrp"      remote="github" revision="android-6.0" />
+    <project name="CyanogenMod/android_external_busybox"               path="external/busybox"            remote="github" revision="cm-13.0" />
+
+<!-- Other -->
+    <project name="CyanogenMod/android_external_stlport"               path="external/stlport"            revision="cm-13.0" />
+</manifest>
