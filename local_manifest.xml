@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<!-- Remove packages -->
+<remove-project name="CyanogenMod/android_packages_services_Telecomm" />
+
 <!-- Common sources -->
     <project name="Galaxy-J5/android_device_samsung_j5-common"         path="device/samsung/j5-common"    remote="github" revision="cm-13.0" />
     <project name="Galaxy-J5/proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    remote="github" revision="cm-13.0" />
@@ -8,7 +11,7 @@
     <project name="Galaxy-J5/android_kernel_samsung_j5nltexx_mm_caf"   path="kernel/samsung/j5lte"        remote="github" revision="cm-13.0" />
 
 <!-- SM-J500F sources -->
-    <project name="Galaxy-J5/android_device_samsung_j5ltexx"           path="device/samsung/j5ltexx"      remote="github" revision="cm-13.0" />
+    <project name="Galaxy-J5/kernel_samsung_j5lte"                     path="device/samsung/j5ltexx"      remote="github" revision="cm-13.0" />
     <project name="Galaxy-J5/proprietary_vendor_samsung_j5ltexx"       path="vendor/samsung/j5ltexx"      remote="github" revision="cm-13.0" />
 <!-- SM-J500FN sources -->
     <project name="Galaxy-J5/android_device_samsung_j5nltexx"          path="device/samsung/j5nltexx"     remote="github" revision="cm-13.0" />
@@ -26,4 +29,6 @@
 
 <!-- Other -->
     <project name="CyanogenMod/android_external_stlport"               path="external/stlport"            revision="cm-13.0" />
+<!-- CM replacements -->
+    <project path="packages/services/Telecomm" name="Galaxy-J5/android_packages_services_Telecomm" revision="cm-13.0" />
 </manifest>
