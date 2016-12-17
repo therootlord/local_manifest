@@ -8,10 +8,10 @@
     <project name="Galaxy-J5/proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    remote="github" revision="cm-13.0" />
 
 <!-- Kernel Source -->
-    <project name="Galaxy-J5/android_kernel_samsung_j5nltexx_mm_caf"   path="kernel/samsung/j5lte"        remote="github" revision="cm-13.0" />
+    <project name="Galaxy-J5/kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        remote="github" revision="cm-13.0" />
 
 <!-- SM-J500F sources -->
-    <project name="Galaxy-J5/kernel_samsung_j5lte"                     path="device/samsung/j5ltexx"      remote="github" revision="cm-13.0" />
+    <project name="Galaxy-J5/android_device_samsung_j5ltexx"           path="device/samsung/j5ltexx"      remote="github" revision="cm-13.0" />
     <project name="Galaxy-J5/proprietary_vendor_samsung_j5ltexx"       path="vendor/samsung/j5ltexx"      remote="github" revision="cm-13.0" />
 <!-- SM-J500FN sources -->
     <project name="Galaxy-J5/android_device_samsung_j5nltexx"          path="device/samsung/j5nltexx"     remote="github" revision="cm-13.0" />
