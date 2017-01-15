@@ -28,6 +28,7 @@
 
 <!-- Other -->
     <project name="LineageOS/android_external_stlport"               path="external/stlport"            revision="cm-13.0" />
+    <project name="LineageOS/android_external_sony_boringssl-compat"               path="external/boringssl-compat"            revision="cm-13.0" />
 <!-- CM replacements -->
     <project name="Galaxy-J5/android_packages_services_Telecomm"       path="packages/services/Telecomm"  revision="cm-13.0" />
 </manifest>
