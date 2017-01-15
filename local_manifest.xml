@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Remove packages -->
-<remove-project name="CyanogenMod/android_packages_services_Telecomm" />
+<remove-project name="LineageOS/android_packages_services_Telecomm" />
 
 <!-- Common sources -->
     <project name="Galaxy-J5/android_device_samsung_j5-common"         path="device/samsung/j5-common"    revision="cm-13.0" />
@@ -18,16 +18,16 @@
     <project name="Galaxy-J5/proprietary_vendor_samsung_j5nltexx"      path="vendor/samsung/j5nltexx"     revision="cm-13.0" />
 
 <!-- Hardware -->  
-    <project name="CyanogenMod/android_device_samsung_qcom-common"     path="device/samsung/qcom-common"  revision="cm-13.0" />
-    <project name="CyanogenMod/android_device_qcom_common"             path="device/qcom/common"          revision="cm-13.0" />
-    <project name="CyanogenMod/android_hardware_samsung"               path="hardware/samsung"            revision="cm-13.0" />
+    <project name="LineageOS/android_device_samsung_qcom-common"     path="device/samsung/qcom-common"  revision="cm-13.0" />
+    <project name="LineageOS/android_device_qcom_common"             path="device/qcom/common"          revision="cm-13.0" />
+    <project name="LineageOS/android_hardware_samsung"               path="hardware/samsung"            revision="cm-13.0" />
 
 <!-- TWRP sources -->
     <project name="omnirom/android_bootable_recovery"                  path="bootable/recovery-twrp"      revision="android-6.0" />
-    <project name="CyanogenMod/android_external_busybox"               path="external/busybox"            revision="cm-13.0" />
+    <project name="LineageOS/android_external_busybox"               path="external/busybox"            revision="cm-13.0" />
 
 <!-- Other -->
-    <project name="CyanogenMod/android_external_stlport"               path="external/stlport"            revision="cm-13.0" />
+    <project name="LineageOS/android_external_stlport"               path="external/stlport"            revision="cm-13.0" />
 <!-- CM replacements -->
     <project name="Galaxy-J5/android_packages_services_Telecomm"       path="packages/services/Telecomm"  revision="cm-13.0" />
 </manifest>
