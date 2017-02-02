@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Remove packages -->
-<remove-project name="LineageOS/android_packages_services_Telecomm" />
-
 <!-- Common sources -->
-    <project name="Galaxy-J5/android_device_samsung_j5-common"         path="device/samsung/j5-common"    revision="cm-13.0" />
+    <project name="J5-Nougat/j5-common"                                path="device/samsung/j5-common"    revision="cm-14.1" />
     <project name="Galaxy-J5/proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    revision="cm-13.0" />
 
 <!-- Kernel Source -->
-    <project name="Galaxy-J5/kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        revision="cm-13.0" />
+    <project name="J5-Nougat/Kernel"                                   path="kernel/samsung/j5lte"        revision="cm-14.1" />
 
 <!-- SM-J500F sources -->
-    <project name="Galaxy-J5/android_device_samsung_j5ltexx"           path="device/samsung/j5ltexx"      revision="cm-13.0" />
+    <project name="J5-Nougat/j5ltexx"                                  path="device/samsung/j5ltexx"      revision="cm-14.1" />
     <project name="Galaxy-J5/proprietary_vendor_samsung_j5ltexx"       path="vendor/samsung/j5ltexx"      revision="cm-13.0" />
 <!-- SM-J500FN sources -->
-    <project name="Galaxy-J5/android_device_samsung_j5nltexx"          path="device/samsung/j5nltexx"     revision="cm-13.0" />
+    <project name="J5-Nougat/j5nltexx"                                 path="device/samsung/j5nltexx"     revision="cm-14.1" />
     <project name="Galaxy-J5/proprietary_vendor_samsung_j5nltexx"      path="vendor/samsung/j5nltexx"     revision="cm-13.0" />
 
 <!-- Hardware -->  
-    <project name="LineageOS/android_device_samsung_qcom-common"     path="device/samsung/qcom-common"  revision="cm-13.0" />
-    <project name="LineageOS/android_device_qcom_common"             path="device/qcom/common"          revision="cm-13.0" />
-    <project name="LineageOS/android_hardware_samsung"               path="hardware/samsung"            revision="cm-13.0" />
+    <project name="LineageOS/android_device_samsung_qcom-common"     path="device/samsung/qcom-common"  revision="cm-14.1" />
+    <project name="LineageOS/android_device_qcom_common"             path="device/qcom/common"          revision="cm-14.1" />
+    <project name="LineageOS/android_hardware_samsung"               path="hardware/samsung"            revision="cm-14.1" />
 
 <!-- TWRP sources -->
-    <project name="omnirom/android_bootable_recovery"                  path="bootable/recovery-twrp"      revision="android-6.0" />
-    <project name="LineageOS/android_external_busybox"               path="external/busybox"            revision="cm-13.0" />
+    <project name="LineageOS/android_external_busybox"               path="external/busybox"            revision="cm-14.1" />
 
 <!-- Other -->
-    <project name="LineageOS/android_external_stlport"               path="external/stlport"            revision="cm-13.0" />
-    <project name="LineageOS/android_external_sony_boringssl-compat"               path="external/boringssl-compat"            revision="cm-13.0" />
-<!-- CM replacements -->
-    <project name="Galaxy-J5/android_packages_services_Telecomm"       path="packages/services/Telecomm"  revision="cm-13.0" />
+    <project name="LineageOS/android_external_stlport"               path="external/stlport"            revision="cm-14.1" />
+    <project name="LineageOS/android_external_sony_boringssl-compat"               path="external/boringssl-compat"            revision="cm-14.1" />
 </manifest>
