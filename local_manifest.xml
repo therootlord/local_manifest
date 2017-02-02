@@ -19,9 +19,6 @@
     <project name="LineageOS/android_device_qcom_common"             path="device/qcom/common"          revision="cm-14.1" />
     <project name="LineageOS/android_hardware_samsung"               path="hardware/samsung"            revision="cm-14.1" />
 
-<!-- TWRP sources -->
-    <project name="LineageOS/android_external_busybox"               path="external/busybox"            revision="cm-14.1" />
-
 <!-- Other -->
     <project name="LineageOS/android_external_stlport"               path="external/stlport"            revision="cm-14.1" />
     <project name="LineageOS/android_external_sony_boringssl-compat"               path="external/boringssl-compat"            revision="cm-14.1" />
