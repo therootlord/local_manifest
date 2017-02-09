@@ -16,6 +16,16 @@
 <!-- SM-J500H sources -->
     <project name="J5-Nougat/android_device_samsung_j53gxx"            path="device/samsung/j53gxx"       revision="cm-14.1" />
     <project name="J5-Nougat/proprietary_vendor_samsung_j53gxx"        path="vendor/samsung/j53gxx"       revision="cm-14.1" />
+<!-- SM-J500X sources -->
+    <project name="J5-Nougat/android_device_samsung_j5yltedo"          path="device/samsung/j5yltedo"      revision="cm-14.1" />
+    <project name="J5-Nougat/proprietary_vendor_samsung_j5yltedo"      path="vendor/samsung/j5yltedo"      revision="cm-14.1" />
+    <project name="J5-Nougat/android_device_samsung_j5ltezt"           path="device/samsung/j5ltezt"       revision="cm-14.1" />
+    <project name="J5-Nougat/proprietary_vendor_samsung_j5ltezt"       path="vendor/samsung/j5ltezt"       revision="cm-14.1" />
+    <project name="J5-Nougat/android_device_samsung_j5lteub"           path="device/samsung/j5lteub"       revision="cm-14.1" />
+    <project name="J5-Nougat/proprietary_vendor_samsung_j5lteub"       path="vendor/samsung/j5lteub"       revision="cm-14.1" />
+    <project name="J5-Nougat/android_device_samsung_j5ltezt"           path="device/samsung/j5ltezt"       revision="cm-14.1" />
+    <project name="J5-Nougat/proprietary_vendor_samsung_j5ltezt"       path="vendor/samsung/j5ltezt"       revision="cm-14.1" />
+   
 <!-- SM-J500FN sources -->
     <project name="J5-Nougat/android_device_samsung_j5nltexx"          path="device/samsung/j5nltexx"     revision="cm-14.1" />
     <project name="J5-Nougat/proprietary_vendor_samsung_j5nltexx"      path="vendor/samsung/j5nltexx"     revision="cm-13.0" />
