@@ -8,7 +8,7 @@
     <project name="J5-Nougat/proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    revision="cm-13.0" />
 
 <!-- Kernel Source -->
-    <project name="J5-Nougat/kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        revision="cm-14.1" />
+    <project name="J5-Nougat/kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        revision="new" />
 
 <!-- SM-J500F sources -->
     <project name="J5-Nougat/android_device_samsung_j5ltexx"           path="device/samsung/j5ltexx"      revision="cm-14.1" />
