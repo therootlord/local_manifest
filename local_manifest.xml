@@ -33,4 +33,5 @@
 <!-- Other -->
     <project name="LineageOS/android_external_stlport"               path="external/stlport"            revision="cm-14.1" />
     <project name="LineageOS/android_external_sony_boringssl-compat"               path="external/boringssl-compat"            revision="cm-14.1" />
+    <project name="LineageOS/android_packages_resources_devicesettings"      path="packages/resources/devicesettings"            revision="cm-14.1" />
 </manifest>
