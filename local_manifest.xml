@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<!-- Remove packages -->
+ <remove-project name="LineageOS/android_packages_services_Telecomm" /> 
+ <remove-project name="LineageOS/android_hardware_qcom_fm" /> 
+    
 <!-- Common sources -->
     <project name="J5-Nougat/android_device_samsung_j5-common"         path="device/samsung/j5-common"    revision="cm-14.1" />
     <project name="J5-Nougat/proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    revision="cm-14.1" />
@@ -34,4 +38,8 @@
     <project name="LineageOS/android_external_stlport"               path="external/stlport"            revision="cm-14.1" />
     <project name="LineageOS/android_external_sony_boringssl-compat"               path="external/boringssl-compat"            revision="cm-14.1" />
     <project name="LineageOS/android_packages_resources_devicesettings"      path="packages/resources/devicesettings"            revision="cm-14.1" />
+    
+<!-- Linege replacements -->
+    <project name="J5-Nougat/android_packages_services_Telecomm"       path="packages/services/Telecomm"  revision="cm-14.1" />
+    <project name="J5-Nougat/android_hardware_qcom_fm"                 path="hardware/qcom/fm"            revision="cm-14.1" />  
 </manifest>
