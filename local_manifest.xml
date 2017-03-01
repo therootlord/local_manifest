@@ -2,6 +2,7 @@
 <manifest>
 <!-- Remove packages -->
  <remove-project name="LineageOS/android_packages_services_Telecomm" /> 
+ <remove-project name="LineageOS/android_hardware_qcom_fm" /> 
     
 <!-- Common sources -->
     <project name="J5-Nougat/android_device_samsung_j5-common"         path="device/samsung/j5-common"    revision="cm-14.1" />
@@ -40,4 +41,5 @@
     
 <!-- Linege replacements -->
     <project name="J5-Nougat/android_packages_services_Telecomm"       path="packages/services/Telecomm"  revision="cm-14.1" />
+    <project name="J5-Nougat/android_hardware_qcom_fm"                 path="hardware/qcom/fm"            revision="cm-14.1" />
 </manifest>
