@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Remove packages -->
- <remove-project name="LineageOS/android_packages_services_Telecomm" /> 
- <remove-project name="LineageOS/android_hardware_qcom_fm" /> 
-    
 <!-- Sync adress for the repos -->
- <remote name="Lineage" fetch="https://github.com/LineageOS/" />
- <remote name="J5"      fetch="https://github.com/J5-Nougat" />
-<!-- Common sources -->
-    <project name="android_device_samsung_j5-common"         path="device/samsung/j5-common"    revision="cm-14.1" remote="J5"/>
-    <project name="proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    revision="cm-14.1" remote="J5"/>
-
-<!-- Kernel Source -->
-    <project name="kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        revision="new" remote="J5"/>
+  <remote name="Lineage" fetch="https://github.com/LineageOS/" />
+  <remote name="J5"      fetch="https://github.com/J5-Nougat" />
 
 <!-- SM-J500 sources -->
+    <remove-project name="LineageOS/android_packages_services_Telecomm" /> 
+    <remove-project name="LineageOS/android_hardware_qcom_fm" /> 
+    <project name="android_device_samsung_j5-common"         path="device/samsung/j5-common"    revision="cm-14.1" remote="J5"/>
+    <project name="proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    revision="cm-14.1" remote="J5"/>
+    <project name="kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        revision="new" remote="J5"/>
     <project name="android_device_samsung_j5ltexx"           path="device/samsung/j5ltexx"      revision="cm-14.1" remote="J5"/>
     <project name="proprietary_vendor_samsung_j5ltexx"       path="vendor/samsung/j5ltexx"      revision="cm-14.1" remote="J5"/>
     <project name="android_device_samsung_j53gxx"            path="device/samsung/j53gxx"       revision="cm-14.1" remote="J5"/>
