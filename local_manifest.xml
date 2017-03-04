@@ -16,7 +16,7 @@
 
 <!-- SM-J500F sources -->
     <project name="android_device_samsung_j5ltexx"           path="device/samsung/j5ltexx"      revision="cm-14.1" remote="J5"/>
-    <project name="proprietary_vendor_samsung_j5ltexx-fixed"       path="vendor/samsung/j5ltexx"      revision="cm-14.1" remote="J5"/>
+    <project name="proprietary_vendor_samsung_j5ltexx"       path="vendor/samsung/j5ltexx"      revision="cm-14.1" remote="J5"/>
 <!-- SM-J500H sources -->
     <project name="android_device_samsung_j53gxx"            path="device/samsung/j53gxx"       revision="cm-14.1" remote="J5"/>
     <project name="proprietary_vendor_samsung_j53gxx"        path="vendor/samsung/j53gxx"       revision="cm-14.1" remote="J5"/>
