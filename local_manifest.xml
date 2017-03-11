@@ -3,6 +3,7 @@
 <!-- Sync adress for the repos -->
   <remote name="Lineage" fetch="https://github.com/LineageOS/" />
   <remote name="J5"      fetch="https://github.com/J5-Nougat" />
+  <remote name="omni"    fetch="https://github.com/omnirom" />
 
 <!-- SM-J500 sources -->
     <remove-project name="LineageOS/android_packages_services_Telecomm" /> 
@@ -36,4 +37,8 @@
 <!-- J5 replacements -->
     <project name="android_packages_services_Telecomm"       path="packages/services/Telecomm"  revision="cm-14.1" remote="J5"/>
     <project name="android_hardware_qcom_fm"                 path="hardware/qcom/fm"            revision="cm-14.1" remote="J5"/>
+	
+<!-- TWRP sources -->
+    <project name="android_bootable_recovery"                path="bootable/recovery-twrp"      revision="android-7.1" remote="omni" />
+    <project name="android_external_busybox"                 path="external/busybox"            revision="cm-14.1" remote="Lineage" />
 </manifest>
