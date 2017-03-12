@@ -3,7 +3,8 @@
 <!-- Sync adress for the repos -->
   <remote name="Lineage" fetch="https://github.com/LineageOS/" />
   <remote name="J5"      fetch="https://github.com/J5-Nougat" />
-
+  <remote name="omni"   fetch="https://github.com/omnirom/" />
+  
 <!-- SM-J500 sources -->
     <project name="android_device_samsung_j5ltedx"           path="device/samsung/j5ltedx"      revision="cm-14.1" remote="J5"/>
     <project name="proprietary_vendor_samsung_j5ltedx"       path="vendor/samsung/j5ltedx"      revision="cm-14.1" remote="J5"/>
@@ -24,8 +25,8 @@
     <project name="proprietary_vendor_samsung_j5nltexx"      path="vendor/samsung/j5nltexx"     revision="cm-13.0" remote="J5"/>
   
 <!-- TWRP sources -->
-    <project name="omnirom/android_bootable_recovery"                  path="bootable/recovery-twrp"      revision="android-7.1" />
-    <project name="LineageOS/android_external_busybox"                 path="external/busybox"            revision="cm-14.1" />
+    <project name="android_bootable_recovery"                path="bootable/recovery-twrp"      revision="android-7.1" remote="omni" />
+    <project name="android_external_busybox"                 path="external/busybox"            revision="cm-14.1" remote="Lineage" />
 
 <!-- Los -->  
     <project name="android_device_samsung_qcom-common"       path="device/samsung/qcom-common"  revision="cm-14.1" remote="Lineage" />
