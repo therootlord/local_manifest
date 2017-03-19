@@ -14,8 +14,6 @@
     <project name="kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        revision="cm-14.1" remote="J5"/>
     <project name="android_device_samsung_j5ltexx"           path="device/samsung/j5ltexx"      revision="cm-14.1" remote="J5"/>
     <project name="proprietary_vendor_samsung_j5ltexx"       path="vendor/samsung/j5ltexx"      revision="cm-14.1" remote="J5"/>
-    <project name="android_device_samsung_j53gxx"            path="device/samsung/j53gxx"       revision="cm-14.1" remote="J5"/>
-    <project name="proprietary_vendor_samsung_j53gxx"        path="vendor/samsung/j53gxx"       revision="cm-14.1" remote="J5"/>
     <project name="android_device_samsung_j5yltedo"          path="device/samsung/j5yltedo"     revision="cm-14.1" remote="J5"/>
     <project name="proprietary_vendor_samsung_j5yltedo"      path="vendor/samsung/j5yltedo"     revision="cm-14.1" remote="J5"/>
     <project name="android_device_samsung_j5ltezt"           path="device/samsung/j5ltezt"      revision="cm-14.1" remote="J5"/>
