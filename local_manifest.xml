@@ -6,7 +6,6 @@
 
 <!-- SM-J500 sources -->
     <remove-project name="LineageOS/android_packages_services_Telecomm" /> 
-    <remove-project name="LineageOS/android_hardware_qcom_fm" /> 
     <project name="android_device_samsung_j5ltedx"           path="device/samsung/j5ltedx"      revision="cm-14.1" remote="J5"/>
     <project name="proprietary_vendor_samsung_j5ltedx"       path="vendor/samsung/j5ltedx"      revision="cm-14.1" remote="J5"/>
     <project name="proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    revision="cm-14.1" remote="J5"/>
@@ -33,5 +32,4 @@
     
 <!-- J5 replacements -->
     <project name="android_packages_services_Telecomm"       path="packages/services/Telecomm"  revision="cm-14.1" remote="J5"/>
-    <project name="android_hardware_qcom_fm"                 path="hardware/qcom/fm"            revision="cm-14.1" remote="J5"/>
 </manifest>
