@@ -2,7 +2,7 @@
 <manifest>
 <!-- Sync adress for the repos -->
   <remote name="Lineage" fetch="https://github.com/LineageOS/" />
-  <remote name="J5"      fetch="https://github.com/J5-Nougat" />
+  <remote name="J5"      fetch="https://github.com/J5-Dev" />
 
 <!-- SM-J500 sources -->
     <remove-project name="LineageOS/android_packages_services_Telecomm" /> 
