@@ -31,4 +31,5 @@
  
 <!-- J5 replacements -->
     <remove-project name="LineageOS/android_packages_services_Telecomm" /> 
+    <project name="android_packages_services_Telecomm"       path="packages/services/Telecomm"  revision="cm-14.1" remote="J5"/>
 </manifest>
