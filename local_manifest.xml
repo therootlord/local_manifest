@@ -5,11 +5,11 @@
   <remote name="J5"      fetch="https://github.com/J5-Dev" />
 
 <!-- J5 Common sources -->
-    <project name="proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    revision="cm-13.0" remote="J5"/>
+    <project name="proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    revision="cm-14.1" remote="J5"/>
     <project name="android_device_samsung_j5-common"         path="device/samsung/j5-common"    revision="cm-14.1" remote="J5"/>
  
 <!-- Kernel -->  
-    <project name="kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        revision="cm-14.1" remote="J5"/>
+    <project name="kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        revision="cm-14.1-new-new" remote="J5"/>
   
 <!-- Devices -->  
     <project name="android_device_samsung_j5lteub"           path="device/samsung/j5lteub"      revision="cm-14.1" remote="J5"/>
