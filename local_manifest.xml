@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Sync adress for the repos -->
+<!-- Sync location -->
   <remote name="Lineage" fetch="https://github.com/LineageOS/" />
-  <remote name="J5"      fetch="https://github.com/J5-Nougat" />
-  <remote name="omni"   fetch="https://github.com/omnirom/" />
-  
-<!-- SM-J500 sources -->
-    <project name="android_device_samsung_j5ltedx"           path="device/samsung/j5ltedx"      revision="cm-14.1" remote="J5"/>
-    <project name="proprietary_vendor_samsung_j5ltedx"       path="vendor/samsung/j5ltedx"      revision="cm-14.1" remote="J5"/>
+  <remote name="J5"      fetch="https://github.com/J5-Dev" />
+  <remote name="omni"   fetch="https://github.com/omnirom/" /> 
+
+<!-- J5 Common sources -->
     <project name="proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    revision="cm-14.1" remote="J5"/>
     <project name="android_device_samsung_j5-common"         path="device/samsung/j5-common"    revision="twrp" remote="J5"/>
-    <project name="kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        revision="cm-14.1" remote="J5"/>
-    <project name="android_device_samsung_j5ltexx"           path="device/samsung/j5ltexx"      revision="cm-14.1" remote="J5"/>
+ 
+<!-- Kernel -->  
+    <project name="kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        revision="cm-14.1-new" remote="J5"/>
+  
+<!-- Devices -->  
+    <project name="android_device_samsung_j5ltexx"           path="device/samsung/j5ltexx"      revision="twrp" remote="J5"/>
     <project name="proprietary_vendor_samsung_j5ltexx"       path="vendor/samsung/j5ltexx"      revision="cm-14.1" remote="J5"/>
-    <project name="android_device_samsung_j53gxx"            path="device/samsung/j53gxx"       revision="cm-14.1" remote="J5"/>
-    <project name="proprietary_vendor_samsung_j53gxx"        path="vendor/samsung/j53gxx"       revision="cm-14.1" remote="J5"/>
-    <project name="android_device_samsung_j5yltedo"          path="device/samsung/j5yltedo"     revision="cm-14.1" remote="J5"/>
-    <project name="proprietary_vendor_samsung_j5yltedo"      path="vendor/samsung/j5yltedo"     revision="cm-14.1" remote="J5"/>
-    <project name="android_device_samsung_j5ltezt"           path="device/samsung/j5ltezt"      revision="cm-14.1" remote="J5"/>
-    <project name="proprietary_vendor_samsung_j5ltezt"       path="vendor/samsung/j5ltezt"      revision="cm-14.1" remote="J5"/>
-    <project name="android_device_samsung_j5lteub"           path="device/samsung/j5lteub"      revision="cm-14.1" remote="J5"/>
-    <project name="proprietary_vendor_samsung_j5lteub"       path="vendor/samsung/j5lteub"      revision="cm-14.1" remote="J5"/>
-    <project name="android_device_samsung_j5nltexx"          path="device/samsung/j5nltexx"     revision="cm-14.1" remote="J5"/>
-    <project name="proprietary_vendor_samsung_j5nltexx"      path="vendor/samsung/j5nltexx"     revision="cm-13.0" remote="J5"/>
+    <project name="android_device_samsung_j5nltexx"          path="device/samsung/j5nltexx"     revision="twrp" remote="J5"/>
+    <project name="proprietary_vendor_samsung_j5nltexx"      path="vendor/samsung/j5nltexx"     revision="cm-14.1" remote="J5"/> 
   
 <!-- TWRP sources -->
     <project name="android_bootable_recovery"                path="bootable/recovery-twrp"      revision="android-7.1" remote="omni" />
-    <project name="android_external_busybox"                 path="external/busybox"            revision="cm-14.1" remote="Lineage" />
-
+    <project name="android_external_busybox"                 path="external/busybox"            revision="cm-14.1" remote="Lineage" />  
+  
 <!-- Los -->  
     <project name="android_device_samsung_qcom-common"       path="device/samsung/qcom-common"  revision="cm-14.1" remote="Lineage" />
     <project name="android_device_qcom_common"               path="device/qcom/common"          revision="cm-14.1" remote="Lineage" />
     <project name="android_hardware_samsung"                 path="hardware/samsung"            revision="cm-14.1" remote="Lineage" />
     <project name="android_external_stlport"                 path="external/stlport"            revision="cm-14.1" remote="Lineage" />
     <project name="android_external_sony_boringssl-compat"   path="external/boringssl-compat"   revision="cm-14.1" remote="Lineage" />
-    <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="cm-14.1"  remote="Lineage"/>
+   <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="cm-14.1"  remote="Lineage"/>
+ 
+<!-- J5 replacements -->
+    <remove-project name="LineageOS/android_packages_services_Telecomm" /> 
+    <project name="android_packages_services_Telecomm"       path="packages/services/Telecomm"  revision="cm-14.1" remote="J5"/>
 </manifest>
