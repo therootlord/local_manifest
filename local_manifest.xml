@@ -10,6 +10,7 @@
  
 <!-- Kernel -->  
     <project name="kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        revision="cm-14.1-new" remote="J5"/>
+    <project name="kernel_samsung_j53g"                      path="kernel/samsung/j53g"         revision="cm-14.1" remote="J5"/>
   
 <!-- Devices -->  
     <project name="android_device_samsung_j5ltexx"           path="device/samsung/j5ltexx"      revision="cm-14.1" remote="J5"/>
