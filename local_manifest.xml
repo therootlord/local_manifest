@@ -16,6 +16,8 @@
     <project name="proprietary_vendor_samsung_j5ltexx"       path="vendor/samsung/j5ltexx"      revision="cm-14.1" remote="J5"/>
     <project name="android_device_samsung_j5nltexx"          path="device/samsung/j5nltexx"     revision="cm-14.1" remote="J5"/>
     <project name="proprietary_vendor_samsung_j5nltexx"      path="vendor/samsung/j5nltexx"     revision="cm-14.1" remote="J5"/> 
+    <project name="android_device_samsung_j53g"              path="device/samsung/j53gxx"       revision="cm-14.1" remote="J5"/>
+    <project name="proprietary_vendor_samsung_j53gxx"        path="vendor/samsung/j53gxx"       revision="cm-14.1" remote="J5"/>
   
 <!-- Los -->  
     <project name="android_device_samsung_qcom-common"       path="device/samsung/qcom-common"  revision="cm-14.1" remote="Lineage" />
