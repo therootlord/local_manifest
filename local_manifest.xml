@@ -9,7 +9,7 @@
     <project name="android_device_samsung_j5-common"         path="device/samsung/j5-common"    revision="cm-14.1" remote="J5"/>
  
 <!-- Kernel -->  
-    <project name="kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        revision="master" remote="J5"/>
+    <project name="kernel_samsung_j5xlte"                     path="kernel/samsung/j5xlte"        revision="master" remote="J5"/>
   
 <!-- Devices -->  
     <project name="android_device_samsung_j5xnltexx"           path="device/samsung/j5xnltexx"      revision="cm-14.1" remote="J5"/>
