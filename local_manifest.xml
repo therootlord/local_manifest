@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Sync location -->
-  <remote name="Lineage" fetch="https://github.com/LineageOS/" />
+  <remote name="Lineage" fetch="https://github.com/LineageOS" />
   <remote name="J5"      fetch="https://github.com/therootlord" />
+  <remote name="J51"      fetch="https://github.com/vince2678" />
 
 <!-- J5 Common sources -->
-    <project name="proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    revision="cm-14.1" remote="J5"/>
-    <project name="android_device_samsung_j5-common"         path="device/samsung/j5-common"    revision="cm-14.1" remote="J5"/>
- 
-<!-- Kernel -->  
-    <project name="kernel_samsung_j5xlte"                     path="kernel/samsung/j5xlte"        revision="master" remote="J5"/>
+    <project name="android_device_samsung_msm8916-common"    path="device/samsung/msm8916-common"    revision="cm-14.1" remote="J5"/>
+    <project name="android_device_samsung_j5-common"         path="device/samsung/j5-common"         revision="cm-14.1" remote="J5"/>
+    <project name="android_vendor_qcom_binaries"             path="vendor/qcom/binaries"      revision="cm-14.1" remote="J51"/>
   
 <!-- Devices -->  
-    <project name="android_device_samsung_j5xnltexx"           path="device/samsung/j5xnltexx"      revision="cm-14.1" remote="J5"/>
-    <project name="proprietary_vendor_samsung_j5xnltexx"       path="vendor/samsung/j5xnltexx"      revision="cm-14.1" remote="J5"/>
+    <project name="android_device_samsung_j5xnlte"           path="device/samsung/j5xnlte"      revision="cm-14.1" remote="J5"/>
+    <project name="android_vendor_samsung_j5xnlte"       path="vendor/samsung/j5xnlte"      revision="cm-14.1" remote="J5"/>
   
 <!-- Los -->  
     <project name="android_device_samsung_qcom-common"       path="device/samsung/qcom-common"  revision="cm-14.1" remote="Lineage" />
@@ -22,8 +21,4 @@
     <project name="android_external_stlport"                 path="external/stlport"            revision="cm-14.1" remote="Lineage" />
     <project name="android_external_sony_boringssl-compat"   path="external/boringssl-compat"   revision="cm-14.1" remote="Lineage" />
    <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="cm-14.1"  remote="Lineage"/>
- 
-<!-- J5 replacements -->
-    <remove-project name="LineageOS/android_packages_services_Telecomm" /> 
-    <project name="android_packages_services_Telecomm"       path="packages/services/Telecomm"  revision="cm-14.1" remote="J5"/>
 </manifest>
