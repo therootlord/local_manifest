@@ -3,12 +3,11 @@
 <!-- Sync location -->
   <remote name="Lineage" fetch="https://github.com/LineageOS" />
   <remote name="J5"      fetch="https://github.com/therootlord" />
-  <remote name="J51"      fetch="https://github.com/vince2678" />
 
 <!-- J5 Common sources -->
     <project name="android_device_samsung_msm8916-common"    path="device/samsung/msm8916-common"    revision="cm-14.1" remote="J5"/>
     <project name="android_device_samsung_j5-common"         path="device/samsung/j5-common"         revision="cm-14.1" remote="J5"/>
-    <project name="android_vendor_qcom_binaries"             path="vendor/qcom/binaries"      revision="cm-14.1" remote="J51"/>
+    <project name="android_vendor_samsung_msm8916-common"    path="vendor/samsung/msm8916-common"      revision="cm-14.1" remote="J5"/>
   
 <!-- Devices -->  
     <project name="android_device_samsung_j5xnlte"           path="device/samsung/j5xnlte"      revision="cm-14.1" remote="J5"/>
