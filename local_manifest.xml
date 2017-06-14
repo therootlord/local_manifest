@@ -13,7 +13,7 @@
     <project name="android_device_samsung_j5xnlte"           path="device/samsung/j5xnlte"      revision="cm-14.1" remote="J5"/>
     <project name="android_vendor_samsung_j5xnlte"       path="vendor/samsung/j5xnlte"      revision="cm-14.1" remote="J5"/>
 <!-- Kernel sources -->
-    <project name="android_kernel_samsung_msm8916"           path="kernel/samsung/msm8916"     revision="cm-14.1" remote="J5"/>
+    <project name="android_kernel_samsung_msm8916"           path="kernel/samsung/msm8916"     revision="cm-14.1-testing" remote="J5"/>
     <project name="kernel_samsung_j5xlte"                    path="kernel/samsung/j5xlte"      revision="main" remote="J5"/>
 <!-- Los -->  
     <project name="android_device_samsung_qcom-common"       path="device/samsung/qcom-common"  revision="cm-14.1" remote="Lineage" />
